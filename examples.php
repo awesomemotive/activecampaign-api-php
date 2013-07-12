@@ -2,8 +2,7 @@
 
 	require_once("includes/ActiveCampaign.class.php");
 
-	//$ac = new ActiveCampaign(ACTIVECAMPAIGN_URL, ACTIVECAMPAIGN_API_KEY);
-	$ac = new ActiveCampaign("https://staging-mthommes.api-us1.com", "[REDACTED]1af1");
+	$ac = new ActiveCampaign(ACTIVECAMPAIGN_URL, ACTIVECAMPAIGN_API_KEY);
 
 	/*
 	 * TEST API CREDENTIALS.
